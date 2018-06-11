@@ -1,0 +1,162 @@
+body{
+	background-color: coral;
+	color: green;
+	/*font-family: Arial,Helvetica,sans-serif;
+	font-size: 18px;
+	font-weight: normal;*/
+	font:normal,18px,Arial,Helvetica;
+	line-height: 1.8em;
+	margin: 0;
+}
+.box-1
+{
+	background-color: #4280f4;
+	color: #fff;
+
+	/*border-bottom: 5px #f4f441 solid;
+	border-right: 5px #f4f441 solid;
+	border-left: 5px #f4f441 solid;
+	border-top: 5px #f4f441 solid;*/
+	border: 5px #f4f441 solid;
+
+	/*padding-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;*/
+	padding: 27px;
+	margin-top: 20px;
+	margin: 20px 0;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+a:hover{
+	color: green;
+}
+a:active{
+	color: red;
+}
+a:visited{
+	color: black;
+}
+.container{
+	width: 72%;
+	margin: auto;
+}
+.button
+{
+	background-color:#4280f4;
+	color: #fff;
+	padding: 20px,25px;
+	width:none;
+}
+.button:hover{
+	background-color: red;
+	color: #fff;
+}
+.box-1 h1{
+	font-family: Tahoma;
+	font-weight: 810;
+	font-size: italic;
+	text-decoration: underline;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	word-spacing: .72em;	
+}
+.box-2{
+	border: 4px dotted #ccc;
+	padding: 20px;
+	margin: 20px 0;
+}
+.catageries{
+	background-color: #5bd1ef;
+	border: 3px #ccc solid;
+	padding: 20px;
+	border-radius: 20px;
+}
+.catageries h1{
+	text-align: center;
+}
+.catageries ul{
+	padding: 0;
+	list-style: none;
+}
+.catageries li{
+	padding-bottom: 5px;
+	border-bottom: dotted 2px #333;
+	list-style-image: url('css/image/sample.png');
+}
+.my-from{
+	padding: 20px;
+}
+.my-from.from-grop{
+	padding: 15px;
+}
+.my-from label{
+	display:block;
+}
+.my-from input[type="text"]
+{
+	padding: 4px;
+	width: 50%;
+}
+.my-from input[type="message"]
+{
+	padding: 45px;
+	width: 50%;
+}
+.block{
+	float: left;
+	border:2px solid #ccc;
+	padding: 15px;
+	width: 33.3%;
+	box-sizing: border-box;
+}
+#main-block{
+	float: left;
+	width: 70%;
+	padding: 14px;
+	box-sizing: border-box;
+}
+#sidebar{
+	float: right;
+	width: 30%;
+	background-color: #333;
+	color: #fff;
+	padding: 14px;
+	box-sizing: border-box;
+}
+.pbox{
+	border:2px solid #000;
+	margin-top: 30px;
+	position: relative;
+	background-image: url('/home/dev/Desktop/HtmlFolder/css/image/sample.jpg');
+}
+.pbox h1{
+	position: absolute;
+	top: 0;
+	left:0;
+}
+.pd{
+	border:5px solid #ccc;
+	margin-top: 20px;
+	padding:50px;
+	position: relative; 
+	background-image: url('/home/dev/Desktop/HtmlFolder/css/image/sample.jpg');
+}
+.pd h4{
+	position: absolute;
+	top: 40px;
+	right: 20px;
+}
+
+.my li:first-child{
+	background:red;
+}
+.my li:last-child{
+	background:green;
+}
+.my li:nth-child(odd){
+	background:orange;
+}
